@@ -60,12 +60,15 @@ The model was evaluated on a set of 200 images and an accuracy of 83% was achiev
 Confusion Matrix:
 | Tables        | Positive | Negative  |
 | ------------- |:-------------:| -----:|
-Positive |  TP: 100 | FP: 0    | $1600 |
-Negative| FN: 34 | TN: 66    |   $12 |
+Positive |  TP: 100 | FP: 0    |  |
+Negative| FN: 34 | TN: 66    |   |
+
+It was important to note that the model had a perfect performance when no pain is expressed (i.e FP), which in its turn means that the pain detection system is most likely never going to cause false alarms to the medical staff which can be very useful.
 
 ![App_Screen](https://github.com/sohaibanwar26/portfolio/blob/main/App_Screenshot.png)
 
-
+Discussion:
+It was important to note that the model had a perfect performance when no pain is expressed (i.e FP), which in its turn means that the pain detection system is most likely never going to cause false alarms to the medical staff which can be very useful in situations of emergency.
 
 
 ## Running on Local PC
@@ -73,8 +76,18 @@ Requirements:
 
     Python 3.7.7
     Git (for cloning the repository)
-Usage:
 
-    open the project folder and inside your terminal write (pip install -r requirements.txt) to install the required libraries to run the project.
+Installation:
+
+    Open a terminal and clone this repository to your local machine:
+    
+    git clone git clone https://github.com/sohaibanwar26/Pain-Intensity-Estimation.git
+
+    Select an IDE (E.g Visual Studio, PyCharm) 
+    
+    Open the project folder and inside the terminal write (pip install -r requirements.txt) to install the required libraries to run the project.
+    
     Run the UI.py file.
 
+    
+  
